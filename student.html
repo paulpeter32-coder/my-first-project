@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1 align="center">STUDENT REGISTRATION FORM</h1>
+    <form action="">
+    <label for="name">Full name: 
+        <input type="text" required placeholder="Enter your full name" maxlength="20" id="name" class="radio">
+    </label><br>
+
+    <label for="email">Email: 
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+    </label><br>
+
+    <label for="password">Password: 
+        <input type="password" id="password" placeholder="Enter your password" maxlength="50">
+    </label><br>
+
+    <label for="date">Date of birth:
+        <input type="date" id="date">
+    </label><p></p>
+
+    <label>Gender:
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other
+    </label><p></p>
+
+    <label for="Courses">Courses:
+        <select name="Courses">
+            <option value="quetion">choose your course</option>
+            <option value="AI"> AI Engineering</option>
+            <option value="CS50">CS50</option>
+            <option value="cybersecurity">Cybersecurity</option>
+            <option value="Machine learning">Machine learning</option>
+            <option value="project management">Project management</option>
+            <option value="digita marketing">Digital marketing</option>
+            <option value="financial marketing">financial markets</option>
+            <option value="Agile & Scrum">Agile & Scrum</option>
+            <option value="UI/UX">UI/UX</option>
+            <option value="Psychology">Psychology</option>
+            <option value="The sciencce of well-being">The art of well-being</option>
+            <option value="energy">Energy & Climate change</option>
+        </select>
+    </label><p></p>
+    <label>Short Bio: <br>
+        <textarea name="" id="" maxlength="150"></textarea>
+    </label><br>
+        <button type="submit">Submit</button>
+    </form><p></p>
+
+
+    <nav>
+       Already have an account? <a href="registration.html">Sign in</a>
+    </nav>
+</body>
+</html>
