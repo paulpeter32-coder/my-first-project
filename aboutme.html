@@ -4,23 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-display: block;
+            background-color: rgb(230, 222, 223);
+            margin: 50px;
+        }
 
-    <link rel="stylesheet" href="my stles.css">
+        div{ 
+            padding: 10px;
+        }
+        .bg{
+            background-color: rgb(113, 114, 117);
+        }
+
+        #bg{
+            background-color: rgb(39, 39, 36);
+            text-align: center;
+            bn,m.
+        }
+    </style>
 </head>    
 
 <body>
-    <div>
-        <h1>ABOUT ME</h1> <img src="omahlay.jpg" alt="omahlay's picture" width="150px" height="150px">
+    <div class="bg">
+        <h1 style="color: ;">ABOUT ME</h1> <img src="omahlay.jpg" alt="omahlay's picture" width="150px" height="150px">
         <hr>
     </div>
-        <P></P>
+        <P>
 
     <div>
         <h3>BRIEF INTRODUCTION:</h3>
         My name's paul.Started code-school at colab, on the 18th of February, with the intention of knowing how to write real code.
     </div>
 
-        <div>
+        <div class="bg">
         <ol>
             <h2>courses to learn</h2>
             <li>HTML</li>
@@ -28,10 +49,11 @@
             <li>JAVASCRIPT</li>
         </ol>
         </div>
-       <div>
-        Click Here To Learn More: <a href="https://www.instagram.com/omah_lay" target="_blank"></a>
+       <div id="bg">
+        Click Here To Learn More: 
+        <input type="button" value="Learn More" onclick="window.open('https://www.instagram.com/omah_lay', '_blank')">
         </div> 
 
-    </div>
+    </div></P>
 </body>
 </html>
