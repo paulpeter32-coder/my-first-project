@@ -1,0 +1,23 @@
+*{
+    text-align: center;
+    font-family:Georgia, Times, serif;
+    border:0PX;
+    box-sizing: content-box;
+    font-display: block;
+}
+body{
+    display: grid;
+     justify-content: center;
+     margin-top: 50px;
+     background-color: black;
+     color: white;
+}
+button{
+    background-color: rgb(16, 245, 85);
+    color: black;
+    font-size: 10px;
+    cursor: pointer;
+}
+.size{
+    font-size: smaller;
+}
