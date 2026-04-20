@@ -1,0 +1,47 @@
+* {
+    margin: 10px;
+}
+span {
+    font-weight: bolder;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+img {
+    width: 150px;
+    height: 150px;
+}
+h4 {
+    font-style: italic;
+    font-size: 25px;
+}
+.work {
+    font-size: 30px;
+    font-weight: bolder;
+}
+table{
+    /* width: 100%; */
+    text-align: left;
+}
+td, th {
+    padding-right: 25px;
+}
+.th {
+    font-size: 20px;
+}
+.d {
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+}
+.gap{
+    margin-left: 160px;
+}
+.stars {
+    color: gold;
+    font-size: 18px;
+}
