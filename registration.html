@@ -11,15 +11,15 @@
     <h1 align="center">REGISTRATION FORM</h1><p></p>
     <div>Thank you for taking the time to help us improve the platform</div><p></p>
 
-    <form>
+    <form id="form">
         <label>Name
-            <input type="text" placeholder="Enter Your Name">
+            <input id="fName" type="text" placeholder="Enter Your Name">
         </label><br>
         <label>Email
-            <input type="Email" placeholder="Enter Your Email" required>
+            <input id="email" type="Email" placeholder="Enter Your Email" required>
         </label><br>
         <label>Age(OPTIONAL)
-            <input type="number" maxlength="40" placeholder="Age">
+            <input id="age" type="number" maxlength="40" placeholder="Age">
         </label><p></p>
 
         <label>which option best describe your current role?<p></p>
@@ -61,8 +61,8 @@
         <label> Any cooments or suggestions?<p></p>
             <textarea name="text" placeholder="Enter Your Comment Here..."></textarea>
         </label><br>
-        <button>submit</button>
+        <button id="btn">submit</button>
     </form>
-    
+    <script src="./registration.js"></script>
 </body>
 </html>
